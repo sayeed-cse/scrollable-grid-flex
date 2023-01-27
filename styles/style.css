@@ -1,0 +1,28 @@
+ul {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-column: 1;
+    grid-row: 1;
+    list-style: none;
+    gap: 5px;
+}
+
+ul>li {
+    padding: 8px 15px;
+    background-color: brown;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 576px) {
+    .container>ul {
+        overflow-x: scroll;
+    }
+
+
+}
