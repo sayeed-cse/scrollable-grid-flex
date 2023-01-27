@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+
+a {
+    text-decoration: none;
+    /* color: aliceblue; */
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        overflow-x: scroll;
+    }
+
+
+}
